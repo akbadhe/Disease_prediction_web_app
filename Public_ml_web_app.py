@@ -44,7 +44,7 @@ def main():
     if page=="Home":
         st.title("MULTIPLE DISEASE PREDICTION SYSTEM")
         #image=Image.open(r"C:\Users\DELL\Desktop\AI_ML_DL\ML_Streamlit\Multi_Disease_Prediction_App\cover.jpeg")
-        st.image(r"C:\Users\DELL\Desktop\AI_ML_DL\ML_Streamlit\Multi_Disease_Prediction_App\cover.jpeg",width=750)
+        st.image("cover.jpeg",width=750)
         
    
     disease=""
