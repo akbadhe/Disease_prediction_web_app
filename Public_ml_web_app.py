@@ -43,8 +43,8 @@ def main():
     page = st.sidebar.radio("",["Home","Predictions"],index=0)
     if page=="Home":
         st.title("MULTIPLE DISEASE PREDICTION SYSTEM")
-        image=Image.open(r"C:\Users\DELL\Desktop\AI_ML_DL\ML_Streamlit\Multi_Disease_Prediction_App\cover.jpeg")
-        st.image(image,width=750)
+        #image=Image.open(r"C:\Users\DELL\Desktop\AI_ML_DL\ML_Streamlit\Multi_Disease_Prediction_App\cover.jpeg")
+        st.image(r"C:\Users\DELL\Desktop\AI_ML_DL\ML_Streamlit\Multi_Disease_Prediction_App\cover.jpeg",width=750)
         
    
     disease=""
